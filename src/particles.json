@@ -1,7 +1,7 @@
 {
   "background": {
     "color": {
-      "value": "#282c34"
+      "value": "#5f9ea0"
     }
   },
   "fpsLimit": 120,
@@ -9,11 +9,11 @@
     "events": {
       "onClick": {
         "enable": true,
-        "mode": "push"
+        "mode": "repulse"
       },
       "onHover": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "grab"
       },
       "resize": true
     },
@@ -47,7 +47,7 @@
       "outModes": {
         "default": "bounce"
       },
-      "random": false,
+      "random": true,
       "speed": 6,
       "straight": false
     },
@@ -56,17 +56,17 @@
         "enable": true,
         "value_area": 800
       },
-      "value": 80
+      "value": 150
     },
     "opacity": {
-      "value": 0.5
+      "value": 1
     },
     "shape": {
-      "type": "circle"
+      "type": "edge"
     },
     "size": {
       "random": true,
-      "value": 5
+      "value": 6
     }
   },
   "detectRetina": true
