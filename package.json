@@ -1,7 +1,12 @@
+
 {
   "name": "ticktacktoe",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.15.0"
+  },
   "private": true,
+  
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
